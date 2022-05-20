@@ -1,0 +1,157 @@
+<html>
+
+<script>
+function click(){ 
+　　if(event.button==2){ 
+　　　　alert( '欢迎光临寒舍，有什么需要帮忙的话，请与站长联系！谢谢您的合作！'); 
+　　} 
+} 
+document.onmousedown=click
+</script>
+  <script>//禁止F12
+function fuckyou(){
+window.close(); //关闭当前窗口(防抽)
+window.location="about:blank"; //将当前窗口跳转置空白页
+}
+function click(e) {
+if (document.all) {
+  if (event.button==2||event.button==3) { 
+oncontextmenu='return false';
+}
+}
+if (document.layers) {
+if (e.which == 3) {
+oncontextmenu='return false';
+}
+}
+}
+if (document.layers) {
+fuckyou();
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onkeydown =document.onkeyup = document.onkeypress=function(){ 
+if(window.event.keyCode == 123) { 
+fuckyou();
+window.event.returnValue=false;
+return(false); 
+} 
+}
+</script>
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<title>王者荣耀</title>
+
+<link rel="stylesheet" href="css/style.css" type="text/css">
+
+<link rel="icon" href="images/favicon.png">
+
+</head>
+
+<body>
+
+<div class="card">
+
+<div class="title"></div>
+
+<div class="content">天气一天天的热了，街边休闲广场的凉亭里，不知从哪天起，多了个蓬头垢面的乞丐。<img src="images/5.png"><p></p>
+
+<div id="table_wrap">
+
+<table class="table" width="100%" cellspacing="0" cellpadding="0">
+
+<tbody>
+
+<tr><td><a target="_blank" href="https://pay.qq.com/h5/index.shtml?m=buy&c=game&dialog=0&midasApiVersion=5&transactionid=CC8E5656-EEC9-4ADD-865E-D4D81C258D691558348901265&dh=1&pf=mds_storeopen_qb-__mds_default_v1_0_0.navgame_v1.0-android&appid=1450002258&zoneid=1233&n=1&as=1&aid=&wxAppid2=wx951bdcac522929b6&u=3219592679">1点券，我谢谢你啊！</a><img src="images/6.png"></td></tr>
+
+<tr><td><a target="_blank" href="https://pay.qq.com/h5/index.shtml?m=buy&c=game&dialog=0&midasApiVersion=5&transactionid=CC8E5656-EEC9-4ADD-865E-D4D81C258D691558348901265&dh=1&pf=mds_storeopen_qb-__mds_default_v1_0_0.navgame_v1.0-android&appid=1450002258&zoneid=1233&n=10&as=1&aid=&wxAppid2=wx951bdcac522929b6&u=3219592679">10点券，道友，请留步！</a><img src="images/9.png"></td></tr>
+
+<tr><td><a target="_blank" href="https://pay.qq.com/h5/index.shtml?m=buy&c=game&dialog=0&midasApiVersion=5&transactionid=CC8E5656-EEC9-4ADD-865E-D4D81C258D691558348901265&dh=1&pf=mds_storeopen_qb-__mds_default_v1_0_0.navgame_v1.0-android&appid=1450002258&zoneid=1233&n=88&as=1&aid=&wxAppid2=wx951bdcac522929b6&u=3219592679">88点券，感谢老板刷的88点券！</a><img src="images/8.png"></td></tr>
+
+<tr><td><a target="_blank" href="https://pay.qq.com/h5/index.shtml?m=buy&c=game&dialog=0&midasApiVersion=5&transactionid=CC8E5656-EEC9-4ADD-865E-D4D81C258D691558348901265&dh=1&pf=mds_storeopen_qb-__mds_default_v1_0_0.navgame_v1.0-android&appid=1450002258&zoneid=1233&n=288&as=1&aid=&wxAppid2=wx951bdcac522929b6&u=3219592679">288点券，老夫莫不是前世与你有缘？</a><img src="images/10.png"></td></tr>
+
+<tr><td><a target="_blank" href="https://pay.qq.com/h5/index.shtml?m=buy&c=game&dialog=0&midasApiVersion=5&transactionid=CC8E5656-EEC9-4ADD-865E-D4D81C258D691558348901265&dh=1&pf=mds_storeopen_qb-__mds_default_v1_0_0.navgame_v1.0-android&appid=1450002258&zoneid=1233&n=888&as=1&aid=&wxAppid2=wx951bdcac522929b6&u=3219592679">888点券，真兄弟，当如此！</a><img src="images/11.png"></td></tr>
+
+<tr><td><a target="_blank" href="https://pay.qq.com/h5/index.shtml?m=buy&c=game&dialog=0&midasApiVersion=5&transactionid=CC8E5656-EEC9-4ADD-865E-D4D81C258D691558348901265&dh=1&pf=mds_storeopen_qb-__mds_default_v1_0_0.navgame_v1.0-android&appid=1450002258&zoneid=1233&n=1688&as=1&aid=&wxAppid2=wx951bdcac522929b6&u=3219592679">1688点券，富婆？是你嘛？</a><img src="images/7.png"></td></tr>
+<br>
+</tbody>
+
+</table>
+
+</div>
+
+<br><br>
+
+<p><img src="images/12.png">自定义金额</p>
+
+<br><br>
+
+<div class="search">
+
+<input id="numb" placeholder="点券数量">
+
+<button type="button" onclick="myFunction()">抛钱</button>
+
+<br><br><br><font color="#9F0021">CopyRight © 2022</font><br><br>
+
+</div>
+
+<p id="demo"></p>
+
+<audio autoplay="autoplay" preload="meta" loop="loop" height="100" width="100">
+<source src="media/yaofan.mp3" type="audio/mp3">
+<script>
+function myFunction() {
+    var x, text;
+    x = document.getElementById("numb").value;
+    if (isNaN(x) || x < 1 || x > 100000) {
+        text = "点券数量请不要小于1大于100000";
+		 document.getElementById("demo").innerHTML = text;
+    } else {
+		window.location.href = 'https://pay.qq.com/h5/index.shtml?m=buy&c=game&dialog=0&midasApiVersion=5&transactionid=CC8E5656-EEC9-4ADD-865E-D4D81C258D691558348901265&dh=1&pf=mds_storeopen_qb-__mds_default_v1_0_0.navgame_v1.0-android&appid=1450002258&zoneid=1233&n='+x+'&as=1&aid=&wxAppid2=wx951bdcac522929b6&u=3219592679';
+    }
+}
+</script>
+<!--禁用右键-->
+<script src="js/fba.js"></script>
+document.oncontextmenu = function () {
+    return false;
+}
+<!--禁用复制-->
+<script>
+function noCopy()
+{
+    event.returnValue = false;
+}
+</script>
+<body oncopy="noCopy()">
+<!--禁用缓存-->
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<!--禁用F12-->
+document.onkeydown = function (e) {
+    var currentKey = 0, k = e || window.event;
+    currentKey = k.keyCode || k.which || k.charCode;
+    if (currentKey == 123) {
+        window.event.cancelBubble = true;
+        window.event.returnValue = false;
+    }
+}
+<!--禁用Ctrl+S-->
+document.onkeydown = function (e) { 
+	 if(e.ctrlKey == true && e.keyCode == 83) { 
+		event.preventDefault();
+	} 	    
+}
+</body></audio></div>
+
+</div>
+
+</body>
+
+</html>
